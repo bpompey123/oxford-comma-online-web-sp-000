@@ -4,5 +4,5 @@ def oxford_comma(array)
     new_array << words
   end
   new_array
-
+  
 end
