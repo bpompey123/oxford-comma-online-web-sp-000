@@ -9,6 +9,6 @@ def oxford_comma(array)
   elsif new_array.count == 2
     new_array.join(" and ")
   else new_array.count >= 3
-    new_array.join(", and ")
+    new_array[0..-2].join(", ") + " and " + array[-1]
   end
 end
